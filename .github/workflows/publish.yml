@@ -14,5 +14,4 @@ jobs:
     - name: Build the superfinder-docker Docker image
       run: |
         docker build . --tag ghcr.io/ivanmritx/superfinder-backend:latest
-        docker run ghcr.io/ivanmritx/superfinder-backend:latest
         docker push ghcr.io/ivanmritx/superfinder-backend:latest
