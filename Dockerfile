@@ -1,4 +1,4 @@
-FROM openjdk:17.0.2-jdk-slim
+FROM openjdk:22-slim-bullseye
 EXPOSE 8080
 ARG JAR_FILE=superFinder-0.0.1-SNAPSHOT.jar
 ADD ${JAR_FILE} app.jar
